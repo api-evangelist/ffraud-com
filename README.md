@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FFraud is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://ffraud.com
+FFraud provides a free, open fraud detection API that scores IP addresses, email addresses, and device identifiers. It identifies VPNs, proxies, Tor exits, disposable email domains, and device fingerprints, returning a numeric risk score and detailed flags. The service is offered without usage caps, no credit‑card required, and includes a public blocklist as MIT‑licensed data. Documentation, pricing, and terms are openly available on the site.
+
+**Areas:** fraud detection · IP lookup · email verification · device fingerprinting · API · open data · free service
+
+## FFraud on APIs.io
+
+Everything profiled for FFraud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ffraud-com/](https://apis.io/providers/ffraud-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [FFraud Account API](https://apis.io/apis/ffraud-com/ffraud-com-account-api/) — API keys and usage. Requires a free account.
+- [FFraud Community API](https://apis.io/apis/ffraud-com/ffraud-com-community-api/) — Report abusive IPs and read the community database. No account needed to report.
+- [FFraud Compatibility API](https://apis.io/apis/ffraud-com/ffraud-com-compatibility-api/) — Drop-in replacements for AbuseIPDB, IPQualityScore, and ipinfo.
+- [FFraud Device API](https://apis.io/apis/ffraud-com/ffraud-com-device-api/) — A stable ID and a risk score for every device on your site.
+- [FFraud Domain API](https://apis.io/apis/ffraud-com/ffraud-com-domain-api/) — Domain reputation.
+- [FFraud Email API](https://apis.io/apis/ffraud-com/ffraud-com-email-api/) — Temporary, alias and abusive email detection, typo suggestions and mail servers.
+- [FFraud IP API](https://apis.io/apis/ffraud-com/ffraud-com-ip-api/) — IP fraud intelligence lookups.
+- [FFraud System API](https://apis.io/apis/ffraud-com/ffraud-com-system-api/) — Health and live counts.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [FFraud Agentic Access](https://apis.io/agentic-access/ffraud-com/ffraud-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DomainResponse](https://apis.io/schemas/ffraud-com/ffraud-com-domain-response/)
+- [EmailReportRequest](https://apis.io/schemas/ffraud-com/ffraud-com-email-report-request/)
+- [EmailResponse](https://apis.io/schemas/ffraud-com/ffraud-com-email-response/)
+- [IpResponse](https://apis.io/schemas/ffraud-com/ffraud-com-ip-response/)
+- [Report](https://apis.io/schemas/ffraud-com/ffraud-com-report/)
+- [ReportRequest](https://apis.io/schemas/ffraud-com/ffraud-com-report-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ffraud Com Context](https://apis.io/jsonld/ffraud-com/ffraud-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FFraud API Rules](https://apis.io/rules/ffraud-com/ffraud-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [FFraud Authentication](https://apis.io/security/ffraud-com/ffraud-com-authentication/)
+- [FFraud Domain Security](https://apis.io/security/ffraud-com/ffraud-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [FFraud Plans Pricing](https://apis.io/plans/ffraud-com/ffraud-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [FFraud Rate Limits](https://apis.io/rate-limits/ffraud-com/ffraud-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ffraud.com)
+- [Documentation](https://ffraud.com/docs)
+- [API reference](https://ffraud.com/llms.txt)
+- [Pricing](https://ffraud.com/pricing)
+- [Blog](https://ffraud.com/blog)
+- [Terms of service](https://ffraud.com/terms)
+- [Privacy policy](https://ffraud.com/privacy)
+- [GitHub](https://github.com/FFraud-com)
+
+## API Evangelist rating
+
+**Kin Score 55.7** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 63.7 |
+
+**Agent readiness 37.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ffraud-com/](https://apis.io/providers/ffraud-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FFraud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ffraud-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
